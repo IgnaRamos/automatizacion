@@ -85,6 +85,14 @@ Para crear estructura de carpetas del Pipeline:
 `mkdir .github`
 `mkdir .github/workflows`
 
+Para agregar al commit el archivo .github/ con su contenido:
+
+`git add .github/`
+
+Para registrar los cambios
+
+`git push -m "ci:Agregar pipeline de integracion continua con GitHub Actions`
+
 ## Pipeline CI
 
 Con nuestros repositorios local y remoto ya trabajando en conjunto, desarrollo el Pipeline que permitirá que cada vez que se haga un push o pull request se ejecuten las pruebas automatizadas, para verificar la correcta compilación del código y así en caso de que el desarrollar X quiera implementar algún cambio en la rama main deba completar las pruebas automatizadas correctamente antes de subirse a la rama main.
