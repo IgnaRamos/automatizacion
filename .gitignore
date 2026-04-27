@@ -1,0 +1,14 @@
+#Dejamos fuera de los archivos que se subiran con el push los creados por Maven
+target/
+
+#Dejamos fuera los archivos creados por Java automaticamente
+*.class
+
+#Dejamos fuera las configuraciones personales para cada editor, en mi caso es VSCode pero tambien dejamos fuera las configuracion de IntellJ (IDE mejor optimizado para maven)
+.idea/
+*.iml
+.vscode/
+
+#Archivos del sistema Windows y MacOs
+.DS_Store
+Thumbs.db
