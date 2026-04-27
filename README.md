@@ -112,6 +112,9 @@ Para finalizar la configuración e implementación de nuestro Pipeline creamos e
 8- Msje de BUILD SUCCESS o Failure
 
 
+## Extras
+Al momento de evaluar los Commits en Actions, pude identificar que tenian un error al compilarse, el errose debia a que las versiones utilizadas en mi archivo ci.yml ya no tenian soporte con GitHub Actions (version 3), por lo que tuve que eitar el archivo para establecer la version V4.
+
 
 
 
